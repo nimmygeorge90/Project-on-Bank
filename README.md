@@ -1,4 +1,6 @@
- Project-on-Bank
+ Project-on-Banking System
+ 
+ 
 This is the mini project for the Banking system in basic Scala.
 The importand activity the opening and closing online bank accounts, retrieve the details of customers, and interact with their bank account to deposit/withdraw money.
 Set Up
