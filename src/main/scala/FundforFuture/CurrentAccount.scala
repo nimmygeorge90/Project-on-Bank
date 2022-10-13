@@ -1,0 +1,5 @@
+package FundforFuture
+
+class CurrentAccount {
+
+}
