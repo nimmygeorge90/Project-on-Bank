@@ -1,4 +1,4 @@
-# Project-on-Bank
+ Project-on-Bank
 This is the mini project for the Banking system in basic Scala.
 The importand activity the opening and closing online bank accounts, retrieve the details of customers, and interact with their bank account to deposit/withdraw money.
 Set Up
@@ -41,4 +41,25 @@ Here I'm used ListBuffer where index of one's client account number and its corr
 value stored in same index value of different listbuffer And here also print the complete details of the account holders and which is used by employees.
 Interest Amount
 ---------------
- This is the child class of Account and it contains method calculate interest of particular amount .      
+ This is the child class of Account and it contains method calculate interest of particular amount .   
+ Credit the Account
+ ------------------
+ This is the child class of the account and the class is used to add amount to the particular account.
+ Debit the Account
+ ------------------
+ Used to withdraw money from an account and function name is debit(). here also debit the money when user needs, first it
+check overdrift limit which is nothing but the minimum limit set by the bank that requires
+ every account to have the balance above that overdraft limit in order to avoid cash deduction.
+ Opening the Account
+ -------------------
+ This is the child class of class account where,Opening() method is used to open a new online account
+ It asks the user for its name and  initial balance ask to user, then employee set and provide an account number to user.
+ Closing the Account
+ -------------------
+  It asks the user to enter the account number and then checks the index of that particular
+    account number using the indexOf() method of ListBuffer and then deletes that particular index
+    from all the Lisuffer respectively.
+    To see details of particular account
+    ------------------------------------
+    Display the report on particular user status.
+ 
