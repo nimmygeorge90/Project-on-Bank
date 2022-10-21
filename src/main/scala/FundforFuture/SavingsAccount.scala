@@ -5,8 +5,8 @@ import scala.io.StdIn.{readInt, readLine}
   class SavingsAccount extends Account {
     var interest: Double = 2
 
-    def calculate_interest(): Unit = {
-      println("Enter the account number to calculate the interest")
+    def calculate_interest(x:Int): Unit = {
+      //println("Enter the account number to calculate the interest")
       val interest_acc = readInt() //Reading account number
       val index_interest = account_number.indexOf(interest_acc)//ndexOf() method returns the index of acc_num
       interest = (balance_amt(index_interest) * 2) / 100// Calculating the interest

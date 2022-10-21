@@ -35,7 +35,7 @@ object customerMain extends App{ //Main object of the project
   // Object of all classes
   val obj0 = new LoginPage()
   val obj1 = new DepositWithdraw(100)
-    val obj2 = new OpeningClosing()
+  val obj2 = new OpeningClosing()
   val obj3 = new Readingfiles()
 
 

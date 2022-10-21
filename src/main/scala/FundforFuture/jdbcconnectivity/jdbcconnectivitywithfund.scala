@@ -1,11 +1,11 @@
 package FundforFuture.jdbcconnectivity
 import java.sql._
-
+//This is object is to connect jdbc mysql,
 object jdbcconnectivitywithfund extends App {
 
 
-  val driver = "com.mysql.jdbc.Driver"
-  val url = "jdbc:mysql://localhost:3306/Fundforfuture"
+  val driver = "com.mysql.jdbc.Driver"// //Mentioning JDBC driver name.
+  val url = "jdbc:mysql://localhost:3306/Fundforfuture"//The url which iclude port and data
   val username = "root"
   val password = "root"
 
