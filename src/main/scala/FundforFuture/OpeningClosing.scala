@@ -32,6 +32,7 @@ import scala.io.StdIn.{readInt, readLine}
 
     def closing(): Unit ={
       println("Enter the account number: ")
+      try{
       val remove_acc = readInt()
       val index_remove = account_number.indexOf(remove_acc)
       names -= names(index_remove)
@@ -40,4 +41,6 @@ import scala.io.StdIn.{readInt, readLine}
       println("Account removed successfully")
     }
 
+
+    }
 }

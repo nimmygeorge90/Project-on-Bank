@@ -51,12 +51,12 @@ object customerMain extends App{ //Main object of the project
   val choice: Int = readInt()
   //Here used case, to call the different objects and methods
   choice match {
-    case 0 => obj0.login(); //Bank_main()
-    case 1 => obj1.deposit(100)//calling credit method to credit amount
-    case 2 => obj1.withdraw(10)//calling debit method to debit smount
+    case 0 => obj0.login(); //Login page for the user
+    case 1 => obj1.deposit(100)//calling credit method to credit amount and implement the test case
+    case 2 => obj1.withdraw(10)//calling debit method to debit amount and implement the test case
     case 3 => obj2.opening()//calling opening method to open an account
     case 4 => obj2.closing()// calling closing method to close the account
-    case 5 => obj3.fileread()
+    case 5 => obj3.fileread()//This is the file reader
     case _ => "other"
     // }
   }

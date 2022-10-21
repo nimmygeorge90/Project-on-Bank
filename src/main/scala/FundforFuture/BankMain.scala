@@ -18,8 +18,8 @@ object BankMain extends App{ //Main object of the project
 
       println("Welcome")
 
-  println("\n1.account details\n" +
-        "\n2.Interest Amount\n " +
+  println("\n1.account details\n" +//Display account details
+        "\n2.Interest Amount\n " +//Calculate interest
         "\n3.Deposit to Account \n" +
         "\n4.Withdraw from Account \n" +
         "\n5.Opening the Account \n" +
@@ -31,12 +31,12 @@ object BankMain extends App{ //Main object of the project
       choice match {
         //case 0 => obj0.login(); //Bank_main()
         case 1 => obj1.show_account_details() //calling account details
-        case 2 => obj3.calculate_interest(100) //calling interest method
-        case 3 => obj2.deposit(100)//calling credit method to credit amount
-        case 4 => obj2.withdraw(10)//calling debit method to debit smount
+        case 2 => obj3.calculate_interest(100) //calling interest method ,and also implement test case are performed the activity
+        case 3 => obj2.deposit(100)//calling credit method to credit amount,and also implement test cases for the deposits
+        case 4 => obj2.withdraw(10)//calling debit method to debit amount and also implement test cases for the withdraw
         case 5 => obj5.opening()//calling opening method to open an account
         case 6 => obj5.closing()// calling closing method to close the account
-        case 7 => obj5.generate_account_number()//calling generate account number randomly
+        case 7 => obj5.generate_account_number()//calling generate account number randomlyalso implement test cases
         case 8 => obj3.show_account_details() //to print the details of particular user
         case _ => "other"
      // }

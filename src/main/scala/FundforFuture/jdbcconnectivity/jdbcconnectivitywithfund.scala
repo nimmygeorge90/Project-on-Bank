@@ -6,16 +6,16 @@ object jdbcconnectivitywithfund extends App {
 
   val driver = "com.mysql.jdbc.Driver"// //Mentioning JDBC driver name.
   val url = "jdbc:mysql://localhost:3306/Fundforfuture"//The url which iclude port and data
-  val username = "root"
-  val password = "root"
+  val username = "root"//Entered the username
+  val password = "root"//The password
 
   // connection instance creation
   var connection: Connection = null
-  try {
+  try { //Apply try catch exception
     Class.forName(driver)
     connection = DriverManager.getConnection(url, username, password)
 
-    val statement = connection.createStatement()
+    val statement = connection.createStatement() //declare the statement for connection
 
 
     //Inserting the values into table
