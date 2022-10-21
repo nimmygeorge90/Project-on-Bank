@@ -153,3 +153,19 @@ This method is used by users where they login using username and password. This 
   ---------------------
   
 This provide an information about the overall structure of banking and different types of account.
+
+Test cases
+-----------
+
+And also done unit test cases for list buffer, calculate interest , deposit the amount and withdraw the amount etc.
+
+
+Future Predictions:
+-------------------
+This is mini bank project, there is lot of technology and applications to implement in the future. We can categories and work on different
+accounts such as student account, basic account, special account, current account, savings account etc.
+Credit and Debit card activities wit tansactions shuold included. And incertain cases the traffics will perform in the transactions
+and this can also solved.
+
+
+The Basics of Scala: [Scala](https://github.com/nimmygeorge90/Scala-Learning-Experience)
