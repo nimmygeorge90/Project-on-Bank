@@ -5,7 +5,7 @@ check overdrift limit which is nothing but the minimum limit set by the bank tha
  every account to have the balance above that overdraft limit in order to avoid cash deduction.
  */
 
-  class CurrentAccount extends Account {
+  abstract class CurrentAccount extends Account {
     var overdraft_limit: Int = 2000//setting overdift limit
       def current_debit(): Unit = {
       println("Enter the account number from witdraw")//getting account number and amount

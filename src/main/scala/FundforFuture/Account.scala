@@ -3,8 +3,10 @@ package FundforFuture
 Here I'm used ListBuffer where index of one's client account number and its corresponding
 value stored in same index value of different listbuffer.*/
 import scala.collection.mutable.ListBuffer
+import scala.io.StdIn.{readInt, readLine}
 //The initial details of account holders
 class Account {
+
   var names = new ListBuffer[String]()
   names += ("George", "Shiby", "Nimisha", "Nithya", "Dinu", "Sajo", "Iza", "Iha")
   var  account_number = new ListBuffer[Int]()
@@ -31,6 +33,8 @@ def get_account(index:Int): Any ={
     println ("Phone number"  + phone_number)
     println("Balance Amount" +  balance_amt)
   }
+
+   
 
 }
 

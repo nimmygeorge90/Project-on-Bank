@@ -15,8 +15,14 @@ import scala.io.StdIn.{readInt, readLine}
       println("Enter the opening balance: ")
       var opening_balance = readInt()
       balance_amt += opening_balance
-      account_number += 1908
       println("Account added successfully")
+    }
+/*This method is used to generate an account number, it begins from 1001, then it is automatically
+    increases by using util.random library by generating random numbers */
+    def generate_account_number(): Long = {
+        val rand = new scala.util.Random
+        rand.between(1001, 1200)
+
     }
 
     // Method used to close an existing account
